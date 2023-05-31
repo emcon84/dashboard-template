@@ -1,0 +1,22 @@
+@import '../00_base/variables.scss';
+
+.nav {
+    background-color: #f3f3f3;
+
+    .nav__menu-user {
+        color: red;
+    }
+
+    .nav__logo {
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: $padding_generic;
+}

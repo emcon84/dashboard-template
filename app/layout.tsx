@@ -1,7 +1,8 @@
 
-import { Nav, Sidebar } from './components/molecules'
+import { Nav, Sidebar } from './components/organisms'
 import { roboto } from './fonts'
-import './globals.css'
+
+import './styles/barrel.scss'
 
 export const metadata = {
   title: 'Dahsboard',
@@ -15,11 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-
       <body className={roboto.className}>
         <Nav />
-        <Sidebar />
-        {children}
+        <div className="content">
+          <Sidebar />
+          {children}
+        </div>
       </body>
     </html>
   )

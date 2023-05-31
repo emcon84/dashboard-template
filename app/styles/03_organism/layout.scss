@@ -1,0 +1,11 @@
+@import '../00_base/variables.scss';
+
+.container {
+    padding: $padding_generic;
+    background-color: $bg_body;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}

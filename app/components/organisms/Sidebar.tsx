@@ -1,7 +1,7 @@
 
 export const Sidebar = () => {
     return (
-        <div>
+        <div className="sidebar sidebar__container">
             <h2>Sidebar</h2>
         </div>
     )

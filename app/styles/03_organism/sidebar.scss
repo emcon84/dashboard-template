@@ -1,0 +1,11 @@
+@import '../00_base/variables.scss';
+
+.sidebar {
+    background-color: $bg_black;
+    height: calc(100vh - 60px);
+    color: #fff;
+}
+
+.sidebar__container {
+    padding: $padding_generic;
+}
